@@ -14,7 +14,7 @@
 
 // + `sayHi` — returns `"Hi, my name is <name>. I am from <homestate>, and I was trained in <training>.`
 
-function boardMember(name, homestate, training){
+function BoardMember(name, homestate, training){
   this.name = name;
   this.homestate = homestate;
   this.training = training;
